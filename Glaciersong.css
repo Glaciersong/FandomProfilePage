@@ -1,0 +1,156 @@
+/* ================================================================ */
+/* =========== ********** Glaciersong's page ********** =========== */
+/* ================================================================ */
+.glaciersong a:link {
+    color: #8270a1;
+}
+ 
+/** this is div class for user page, do not remove **/
+ 
+/* ================================================================ */
+/* =========== Glaciersong's User Page and Message Wall =========== */
+/* ================================================================ */
+/** Body **/
+.page-Message_Wall_Glaciersong .WikiaPage .WikiaPageContentWrapper,
+.page-User_Glaciersong .WikiaPage .WikiaPageContentWrapper {
+    border: ridge 4px #7267a9;
+}
+ 
+ 
+/* Background */
+body.page-Message_Wall_Glaciersong,
+body.page-User_Glaciersong {
+    background-image: url(https://i.ibb.co/HYjWvQN/1608103708541-xm-1.jpg);
+    background-position: top center !important;
+}
+ 
+body.page-Message_Wall_Glaciersong .skin-oasis,
+body.page-Message_Wall_Glaciersong .background-dynamic .skin-oasis::after,
+body.page-Message_Wall_Glaciersong .background-dynamic .skin-oasis::before,
+body.page-User_Glaciersong .skin-oasis,
+body.page-User_Glaciersong .background-dynamic .skin-oasis::after,
+body.page-User_Glaciersong .background-dynamic .skin-oasis::before {
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+ 
+.page-Message_Wall_Glaciersong .WikiaPage .WikiaPageBackground,
+.page-User_Glaciersong .WikiaPage .WikiaPageBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/**/
+ 
+/** Community Header **/
+.page-Message_Wall_Glaciersong .ooui-theme-fandom .WikiaPage .wds-community-header,
+.page-User_Glaciersong .ooui-theme-fandom .WikiaPage .wds-community-header {
+    z-index: 1;
+    border: ridge 4px #7267a9 !important;
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    margin-top: 0px;
+    background-color: #333a6f;
+}
+ 
+.page-Message_Wall_Glaciersong .wds-community-header::before,
+.page-User_Glaciersong .wds-community-header::before {
+    background: linear-gradient(to left, rgb(140 121 173 / 0.5), rgb(177 162 211 / 1)), linear-gradient(to left, rgba(80, 185, 168, 0) 200px, rgb(234 234 246 / 0.5) 430px);
+}
+/**/
+ 
+/** User Info **/
+.page-Message_Wall_Glaciersong #userProfileApp,
+.page-User_Glaciersong #userProfileApp {
+    background-color: transparent;
+}
+ 
+.page-Message_Wall_Glaciersong #userProfileApp .user-identity-box,
+.page-User_Glaciersong #userProfileApp .user-identity-box {
+    position: relative;
+    padding: 30px;
+    background: linear-gradient(to right, rgba(000, 000, 000, 0.3), rgba(000, 000, 000, 0.1)), url(https://i.ibb.co/wNx1QGC/1608634861594-pc.jpg);
+    background-size: 100% auto;
+    border-radius: 30px;
+    color: white;
+}
+ 
+.page-Message_Wall_Glaciersong #userProfileApp+.WikiaPageContentWrapper,
+.page-User_Glaciersong #userProfileApp+.WikiaPageContentWrapper {
+    padding-top: 20px;
+}
+ 
+/* User Identity Tag */
+.page-Message_Wall_Glaciersong #userProfileApp .user-identity-header__tag,
+.page-User_Glaciersong #userProfileApp .user-identity-header__tag {
+    background-color: rgba(192, 138, 216, 0.4);
+    color: white;
+}
+ 
+/* Avatar */
+.page-Message_Wall_Glaciersong #userProfileApp .user-identity-avatar__image,
+.page-User_Glaciersong #userProfileApp .user-identity-avatar__image {
+    border-color: #eaeaf6;
+}
+ 
+/**/
+ 
+/** Bullet Points **/
+.page-Message_Wall_Glaciersong .WikiaArticle ul,
+.page-User_Glaciersong .WikiaArticle ul {
+    list-style: square outside url(https://static.wikia.nocookie.net/love-and-producer/images/4/4c/Karma_Promise.png/revision/latest/scale-to-width-down/20?cb=20190411165052);
+    margin: 0 0 0.3em 2.5em;
+}
+ 
+/**/
+ 
+/** Highlighting **/
+.page-User_Glaciersong:-moz-selection {
+/* Code for Firefox */
+    color: white;
+    background: rgb(159, 139, 197 / 0.5);
+}
+ 
+.page-User_Glaciersong:selection {
+    color: white;
+    background: #90cefb70;
+}
+/**/
+ 
+/** Rail (user page only) aka sidebar **/
+.page-User_Glaciersong .WikiaRail .rail-module,
+.page-User_Glaciersong .ChatEntryPoint,
+.page-User_Glaciersong .ChatModule,
+.page-User_Glaciersong .WikiaRail .module,
+.page-User_Glaciersong .WikiaArticle .thumbinner,
+.page-User_Glaciersong .WikiaArticleCategories,
+.page-User_Glaciersong section#cql-module {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://i.ibb.co/nr5qmBb/65457695-418463068745238-8772114546211946496-o.jpg");
+    background-size: cover;
+    border: solid 0 #7267a9;
+    padding: 15px;
+    margin: 0 0 30px;
+    border-radius: 20px;
+    width: auto;
+    color: white;
+}
+ 
+.page-User_Glaciersong .WikiaRail .module>h2,
+.page-User_Glaciersong .WikiaRail .rail-module h2 {
+    font-family: Vivaldi;
+    font-size: 150%;
+}
+/**/
+ 
+/**** Message Wall only ****/
+/* user tags */
+.page-Message_Wall_Glaciersong .EntityHeader_name__2oRXg::after {
+    content: " loves Lucien" !important;
+}
+ 
+/* more opacity for readability */
+.page-Message_Wall_Glaciersong #MessageWall .Message__wrapper {
+    background-color: rgb(234, 234, 246, 0.7);
+}
+ 
+/************************end************************/
